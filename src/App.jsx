@@ -2,6 +2,8 @@
 import './App.css'
 import Banner from './Component/Banner/Banner'
 import Navbar from './Component/Navbar/Navbar'
+import SearchResult from './Component/SearchResult/SearchResult'
+import Sidebar from './Component/Sidebar/Sidebar'
 
 function App() {
 
@@ -11,6 +13,13 @@ function App() {
       <div className='max-w-6xl mx-auto'>
         <Navbar></Navbar>
         <Banner></Banner>
+
+        <div className='md:w-[30%]  shadow-xl text-[#ffffff]   md:pt-12 '>
+          <Sidebar />
+        </div>
+        <div className='md:w-[65%] bg-white md:right-0 md:absolute pb-20'>
+          <SearchResult />
+        </div>
       </div>
 
     </>
