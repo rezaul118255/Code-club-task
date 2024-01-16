@@ -1,7 +1,11 @@
 import { MdPlayArrow } from "react-icons/md";
 import { MdOutlineArrowLeft } from "react-icons/md";
 import usBangla from '../../assets/us-bangla-airlines-logo.png'
+import novoAir from '../../assets/novoair-logo-.com.png'
+import biman from '../../assets/bimanBangladeshlogo.png'
+import airAstra from '../../assets/airastra.png'
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+import { FaCheck } from "react-icons/fa6";
 
 const SearchResult = () => {
     return (
@@ -22,8 +26,9 @@ const SearchResult = () => {
 
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 shadow-xl ps-3 justify-items-start  text-[#7c8db0]">
-                <div className=" border-r-2 p-4 py-4 hover:bg-gray-200 border-[#dee2e6] ">
+
+            <div className="flex shadow-xl ps-3 justify-items-start  text-[#7c8db0]">
+                <div className=" w-1/2 border-r-2 p-4 py-4 hover:bg-gray-200 border-[#dee2e6] ">
                     <h1 className="text-xl font-bold">Cheapest</h1>
                     <p className="text-sm">To get the chepest available flite</p>
                 </div>
@@ -78,8 +83,15 @@ const SearchResult = () => {
                         <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
-                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] h-[48px] w-[89px] border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
-                        <h1 className="text-[#eb1933]">Flight Details</h1>
+                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
+                        <div className="flex py-2">
+                            <h1 className="text-[#eb1933]">Flight Details</h1>
+                            <div className="text-[#eb1933] px-4 mt-1 ">
+                                <FaCheck></FaCheck>
+                            </div>
+
+                        </div>
+
 
 
                     </div>
@@ -94,7 +106,7 @@ const SearchResult = () => {
 
                 <div className="flex justify-between text-black">
                     <div className="p-4">
-                        <img className="h-16 w-20 " src={usBangla} alt="" />
+                        <img className="h-16 w-20 " src={novoAir} alt="" />
                         <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
@@ -133,8 +145,14 @@ const SearchResult = () => {
                         <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
-                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] h-[48px] w-[89px] border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
-                        <h1 className="text-[#eb1933]">Flight Details</h1>
+                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
+                        <div className="flex py-2">
+                            <h1 className="text-[#eb1933]">Flight Details</h1>
+                            <div className="text-[#eb1933] px-4 mt-1 ">
+                                <FaCheck></FaCheck>
+                            </div>
+
+                        </div>
 
 
                     </div>
@@ -148,7 +166,7 @@ const SearchResult = () => {
 
                 <div className="flex justify-between text-black">
                     <div className="p-4">
-                        <img className="h-16 w-20 " src={usBangla} alt="" />
+                        <img className="h-16 w-20 " src={biman} alt="" />
                         <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
@@ -187,8 +205,14 @@ const SearchResult = () => {
                         <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
-                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] h-[48px] w-[89px] border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
-                        <h1 className="text-[#eb1933]">Flight Details</h1>
+                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
+                        <div className="flex py-2">
+                            <h1 className="text-[#eb1933]">Flight Details</h1>
+                            <div className="text-[#eb1933] px-4 mt-1 ">
+                                <FaCheck></FaCheck>
+                            </div>
+
+                        </div>
 
 
                     </div>
@@ -202,7 +226,7 @@ const SearchResult = () => {
 
                 <div className="flex justify-between text-black">
                     <div className="p-4">
-                        <img className="h-16 w-20 " src={usBangla} alt="" />
+                        <img className="h-16 w-20 " src={airAstra} alt="" />
                         <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
@@ -241,8 +265,43 @@ const SearchResult = () => {
                         <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
-                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] h-[48px] w-[89px] border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
-                        <h1 className="text-[#eb1933]">Flight Details</h1>
+                        <div>
+                            <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
+
+                        </div>
+
+                        <details className="dropdown">
+                            <summary className=" ">
+                                <div className="flex py-2">
+                                    <h1 className="text-[#eb1933]">Flight Details</h1>
+                                    <div className="text-[#eb1933] px-4 mt-1 ">
+                                        <FaCheck></FaCheck>
+                                    </div>
+
+                                </div>
+
+                            </summary>
+                            <div className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                                <div>
+                                    <h1>rezaul</h1>
+                                </div>
+                                <li><a>Item 1</a></li>
+                                <li><a>Item 2</a></li>
+                            </div>
+
+
+                        </details>
+
+
+
+
+
+
+
+
+
+
+
 
 
                     </div>

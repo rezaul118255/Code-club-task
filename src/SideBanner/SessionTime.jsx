@@ -32,10 +32,14 @@ const SessionTime = () => {
 
                 {/* oneway price seciton */}
                 <div className="border-t-2 border-[#dee2e6] px-5">
-                    <div className="border-b-4 py-4 mt-2 border-[#eb1933] ">
+                    <div className=" py-4 mt-2  ">
                         <h1 className="text-[#212529] text-[20px]  "> One Way Price</h1>
                     </div>
-                    <h1 className="text-[#212529] text-[20px] mt-2  "> 3,240 tk - 7,314 tk</h1>
+                    <div className="">
+                        <input type="range" min={0} max="100" value="98" className="w-72" />
+                    </div>
+
+                    <h1 className="text-[#212529] text-[20px] mt-2  "> 3,240 tk 7,314 tk</h1>
 
                 </div>
                 <div className="border-t-2 mt-4 border-[#dee2e6] px-5 py-5">

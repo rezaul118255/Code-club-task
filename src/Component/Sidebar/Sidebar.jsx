@@ -5,7 +5,7 @@ import SessionTime from "../../SideBanner/SessionTime";
 const Sidebar = () => {
     return (
         <div className="relative">
-            <div className="absolute  shadow-xl ">
+            <div className="absolute  shadow-xl hidden lg:block ">
                 <SessionTime></SessionTime>
                 <SecondSection></SecondSection>
             </div>

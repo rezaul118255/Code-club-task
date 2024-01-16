@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './Component/Banner/Banner'
+import Footer from './Component/Footer/Footer'
 import Navbar from './Component/Navbar/Navbar'
 import SearchResult from './Component/SearchResult/SearchResult'
 import Sidebar from './Component/Sidebar/Sidebar'
@@ -22,6 +23,8 @@ function App() {
             <SearchResult />
           </div>
         </div>
+
+        <Footer></Footer>
       </div>
 
     </>
