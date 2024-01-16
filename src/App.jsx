@@ -14,11 +14,13 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
 
-        <div className='md:w-[30%]  shadow-xl text-[#ffffff]   md:pt-12 '>
-          <Sidebar />
-        </div>
-        <div className='md:w-[65%] bg-white md:right-0 md:absolute pb-20'>
-          <SearchResult />
+        <div className='mt-10 max-w-6xl'>
+          <div className='md:w-[35%]   shadow-xl     md:top-0 '>
+            <Sidebar />
+          </div>
+          <div className='md:w-[65%] bg-white md:right-0 md:absolute '>
+            <SearchResult />
+          </div>
         </div>
       </div>
 

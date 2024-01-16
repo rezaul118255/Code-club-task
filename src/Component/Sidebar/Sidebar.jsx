@@ -4,9 +4,12 @@ import SessionTime from "../../SideBanner/SessionTime";
 
 const Sidebar = () => {
     return (
-        <div>
-            <SessionTime></SessionTime>
-            <SecondSection></SecondSection>
+        <div className="relative">
+            <div className="absolute  shadow-xl ">
+                <SessionTime></SessionTime>
+                <SecondSection></SecondSection>
+            </div>
+
         </div>
     );
 };
