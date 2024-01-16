@@ -78,7 +78,7 @@ const Banner = () => {
 
 
     return (
-        <div className="shadow-xl text-[#7c8db0] px-6 mt-6 relative">
+        <div className="shadow-xl text-[#7c8db0] px-6 mt-6 relative ">
 
 
             {/* 1st section */}
@@ -151,7 +151,7 @@ const Banner = () => {
                     )}
                 </div>
                 <div
-                    className="border rounded-xl border-[#dee2e6]  cursor-pointer relative" // Added 'relative' for positioning
+                    className="border rounded-xl border-[#dee2e6] ms-2 cursor-pointer relative" // Added 'relative' for positioning
                     onClick={handleDate}
                 >
                     <div className="flex">
@@ -183,7 +183,7 @@ const Banner = () => {
                     )}
                 </div>
                 <div
-                    className="border rounded-xl hover:bg-[#bfdbfe]  border-[#dee2e6] cursor-pointer relative" // Added 'relative' for positioning
+                    className="border rounded-xl hover:bg-[#bfdbfe] ms-2  border-[#dee2e6] cursor-pointer relative" // Added 'relative' for positioning
 
                 >
                     {/* Original content */}

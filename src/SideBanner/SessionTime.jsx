@@ -1,4 +1,4 @@
-
+import { FiSunrise } from "react-icons/fi";
 import { MdOutlineWbSunny } from "react-icons/md";
 const SessionTime = () => {
     return (
@@ -39,7 +39,7 @@ const SessionTime = () => {
             </div>
             <div className="border-t-2 mt-4 border-[#dee2e6] px-5 py-5">
                 <h1 className="text-[#212529] text-[20px] mt-3  "> Departure time in Dhaka</h1>
-                <div className="flex gap-5 mt-4">
+                <div className="flex justify-around mt-4">
                     <div className="border-2 border-black text-black hover:bg-[#eb1933] rounded-lg">
 
                         <div className="text-center text-sm py-4 px-2">
@@ -55,11 +55,11 @@ const SessionTime = () => {
 
                         <div className="text-center  text-sm py-4 px-2 ">
                             <div className=" ms-10">
-                                < MdOutlineWbSunny />
+                                <FiSunrise />
                             </div>
 
-                            <h1 >After Noon</h1>
-                            <h1>12:00 - 17:59 (1)</h1>
+                            <h1 >Evening</h1>
+                            <h1>18:00 - 23:59 (8)</h1>
                         </div>
                     </div>
                 </div>
