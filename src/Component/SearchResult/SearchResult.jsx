@@ -30,11 +30,11 @@ const SearchResult = () => {
             <div className="flex shadow-xl ps-3 justify-items-start  text-[#7c8db0]">
                 <div className=" w-1/2 border-r-2 p-4 py-4 hover:bg-gray-200 border-[#dee2e6] ">
                     <h1 className="text-xl font-bold">Cheapest</h1>
-                    <p className="text-sm">To get the chepest available flite</p>
+                    <p className="text-[14px]">To get the chepest available flite</p>
                 </div>
-                <div className="p-4 ms-3 py-3  hover:bg-gray-200">
+                <div className="p-4 w-1/2 ms-3 py-3  hover:bg-gray-200">
                     <h1 className="text-xl font-bold">shortest</h1>
-                    <p className="text-sm">To get the Shortest available flite</p>
+                    <p className="text-[14px]">To get the Shortest available flite</p>
 
                 </div>
 
@@ -45,16 +45,20 @@ const SearchResult = () => {
                 <div className="flex justify-between text-black">
                     <div className="p-4">
                         <img className="h-16 w-20 " src={usBangla} alt="" />
-                        <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
+                        <h1 className="text-[#7c8db0] text-[12px] mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
                         <h1 className="text-[#7c8db0]">Depart</h1>
                         <h1>20:00</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1>Dhaka (DAC)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
+
                     </div>
-                    <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                    <div className="p-4 text-[12px]">
+                        <h1 className="text-[#7c8db0]  ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -66,12 +70,15 @@ const SearchResult = () => {
 
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             Arrive
                         </h1>
                         <h1>21:35</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1 className="mt-3"> Chittagong (CGP)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
 
                     </div>
 
@@ -80,7 +87,7 @@ const SearchResult = () => {
                     <div>
                         <h1 className="text-[#7c8db0]">Price</h1>
                         <h1>BDT 4,139</h1>
-                        <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
+                        <h1 className="text-[12px] text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
                         <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
@@ -107,16 +114,19 @@ const SearchResult = () => {
                 <div className="flex justify-between text-black">
                     <div className="p-4">
                         <img className="h-16 w-20 " src={novoAir} alt="" />
-                        <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
+                        <h1 className="text-[#7c8db0] text-[12px] mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
                         <h1 className="text-[#7c8db0]">Depart</h1>
                         <h1>20:00</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1>Dhaka (DAC)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -128,7 +138,7 @@ const SearchResult = () => {
 
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             Arrive
                         </h1>
                         <h1>21:35</h1>
@@ -142,7 +152,7 @@ const SearchResult = () => {
                     <div>
                         <h1 className="text-[#7c8db0]">Price</h1>
                         <h1>BDT 4,139</h1>
-                        <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
+                        <h1 className="text-[12px] text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
                         <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
@@ -167,16 +177,19 @@ const SearchResult = () => {
                 <div className="flex justify-between text-black">
                     <div className="p-4">
                         <img className="h-16 w-20 " src={biman} alt="" />
-                        <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
+                        <h1 className="text-[#7c8db0] text-[12px] mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
                         <h1 className="text-[#7c8db0]">Depart</h1>
                         <h1>20:00</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1>Dhaka (DAC)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -188,7 +201,7 @@ const SearchResult = () => {
 
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             Arrive
                         </h1>
                         <h1>21:35</h1>
@@ -202,7 +215,7 @@ const SearchResult = () => {
                     <div>
                         <h1 className="text-[#7c8db0]">Price</h1>
                         <h1>BDT 4,139</h1>
-                        <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
+                        <h1 className="text-[12px] text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
                         <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
@@ -227,16 +240,19 @@ const SearchResult = () => {
                 <div className="flex justify-between text-black">
                     <div className="p-4">
                         <img className="h-16 w-20 " src={airAstra} alt="" />
-                        <h1 className="text-[#7c8db0] text-sm mt-4">US Bangla Airlines</h1>
+                        <h1 className="text-[#7c8db0] text-[12px] mt-4">US Bangla Airlines</h1>
                     </div>
                     <div className="p-4">
                         <h1 className="text-[#7c8db0]">Depart</h1>
                         <h1>20:00</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1>Dhaka (DAC)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -248,7 +264,7 @@ const SearchResult = () => {
 
                     </div>
                     <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-sm ">
+                        <h1 className="text-[#7c8db0] text-[12px] ">
                             Arrive
                         </h1>
                         <h1>21:35</h1>
@@ -262,15 +278,22 @@ const SearchResult = () => {
                     <div>
                         <h1 className="text-[#7c8db0]">Price</h1>
                         <h1>BDT 4,139</h1>
-                        <h1 className="text-sm text-[#008000]">Partially Refundable</h1>
+                        <h1 className="text-[12px] text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
                         <div>
                             <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
 
                         </div>
+                        <div className="flex py-2">
+                            <h1 className="text-[#eb1933]">Flight Details</h1>
+                            <div className="text-[#eb1933] px-4 mt-1 ">
+                                <FaCheck></FaCheck>
+                            </div>
 
-                        <details className="dropdown">
+                        </div>
+
+                        {/* <details className="dropdown">
                             <summary className=" ">
                                 <div className="flex py-2">
                                     <h1 className="text-[#eb1933]">Flight Details</h1>
@@ -281,16 +304,16 @@ const SearchResult = () => {
                                 </div>
 
                             </summary>
-                            <div className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                            <div className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-[200px]">
                                 <div>
-                                    <h1>rezaul</h1>
+                                    <h1>rezaul Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus cum quibusdam ea, odio laborum expedita voluptatum necessitatibus, animi repellat perspiciatis unde libero autem. Cum veritatis reprehenderit commodi animi veniam!</h1>
                                 </div>
                                 <li><a>Item 1</a></li>
                                 <li><a>Item 2</a></li>
                             </div>
 
 
-                        </details>
+                        </details> */}
 
 
 

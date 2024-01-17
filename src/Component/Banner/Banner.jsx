@@ -86,7 +86,7 @@ const Banner = () => {
 
 
                 {/* 1st section */}
-                <div className="flex gap-2">
+                <div className="flex gap-2 text-[15px]">
                     <div className="flex gap-2 items-center">
                         <input type="radio" name="radio-8" className="radio radio-error h-[1em] w-[1em] " checked />
                         <h1 className="font-semibold">One Way</h1>
@@ -125,7 +125,7 @@ const Banner = () => {
                         {/* Original content */}
                         <div className="px-4 py-2">
                             <h1>From</h1>
-                            <h1 className="text-xl font-bold">Dhaka</h1>
+                            <h1 className="text-[18px] font-bold">Dhaka</h1>
                             <p className="text-sm">Hazrat shahjalal international Airport</p>
                         </div>
 
@@ -147,7 +147,7 @@ const Banner = () => {
                         {/* Original content */}
                         <div className="px-10 py-2">
                             <h1>To</h1>
-                            <h1 className="text-xl font-bold">Chittagong</h1>
+                            <h1 className="text-[18px] font-bold">Chittagong</h1>
                             <p className="text-sm">Shah Amanat international </p>
                         </div>
 
@@ -172,7 +172,7 @@ const Banner = () => {
                                     <FaCheck></FaCheck>
                                 </div>
 
-                                <h1 className="text-xl font-bold">16 Jan 24</h1>
+                                <h1 className="text-[18px] font-bold">16 Jan 24</h1>
                                 <p className="text-sm">Tuseday </p>
                             </div>
                             <div className="px-1 hover:bg-[#bfdbfe] ">
@@ -208,7 +208,7 @@ const Banner = () => {
                         {/* Original content */}
                         <div className="px-4 py-2">
                             <h1>Travels & Booking Class</h1>
-                            <h1 className="text-xl font-bold">1 traveler</h1>
+                            <h1 className="text-[18px] font-bold">1 traveler</h1>
                             <p className="text-sm">Economy </p>
                         </div>
 
@@ -219,16 +219,16 @@ const Banner = () => {
 
                 </div>
                 {/* 3rd Section */}
-                <div className="flex gap-4 py-1">
+                <div className="flex gap-4 py-1 text-[14px] text-black">
                     <div className="mt-2">
                         <h1 className="font-bold">Fare Type:</h1>
 
                     </div>
-                    <div className="items-center px-4 py-2 bg-[#fff4f6] rounded-md">
-                        <input type="radio" name="radio-8" className="radio p-2  radio-error h-[1em] w-[1em] " checked /> <span className="mb-2">Regular Fares</span>
+                    <div className="items-center px-4 py-2 bg-[#fff4f6] cursor-pointer rounded-md">
+                        <input type="radio" name="radio-8" className="radio p-2  radio-error h-[1em] w-[1em] " checked /> <span className="px-2">Regular Fares</span>
                     </div>
-                    <div className="px-4 py-2 bg-[#fff4f6]">
-                        <input type="radio" name="radio-8" className="radio p-2 radio-error h-[1em] w-[1em] " checked /> <span>Seaman Fares</span>
+                    <div className="px-4 py-2 bg-[#fff4f6] cursor-pointer">
+                        <input type="radio" name="radio-8" className="radio p-2 radio-error h-[1em] w-[1em] " checked /> <span className="px-2 ">Seaman Fares</span>
 
                     </div>
                 </div>

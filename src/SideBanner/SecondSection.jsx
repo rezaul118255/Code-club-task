@@ -8,10 +8,10 @@ const SecondSection = () => {
     return (
         <div className="px-5 text-[#52556f]">
             <div className="border-t-2 border-[#dee2e6]">
-                <h1 className="text-[#212529] text-[20px] mt-3"> Stops From Dhaka</h1>
+                <h1 className="text-[#212529] text-[18px] mt-3"> Stops From Dhaka</h1>
             </div>
             <div className="flex justify-between py-4">
-                <div className=" flex">
+                <div className=" flex text-[14px]">
                     <div className="mt-1">
                         <label className="container ">
                             <input className="border  " type="checkbox" />
@@ -33,10 +33,10 @@ const SecondSection = () => {
             </div>
             {/* Check in Baggage Allowance */}
             <div className="border-t-2 border-[#dee2e6]">
-                <h1 className="text-[#212529] text-[20px] mt-3"> Check in Baggage Allowance</h1>
+                <h1 className="text-[#212529] text-[18px] mt-3"> Check in Baggage Allowance</h1>
             </div>
             <div className="flex justify-between py-4">
-                <div className=" flex">
+                <div className=" flex text-[14px]">
                     <div className="mt-1">
                         <label className="container ">
                             <input className="border  " type="checkbox" />
@@ -54,11 +54,11 @@ const SecondSection = () => {
             {/* Refundable section */}
 
             <div className="border-t-2 border-[#dee2e6]">
-                <h1 className="text-[#212529] text-[20px] mt-3">Refundable
+                <h1 className="text-[#212529] text-[18px] mt-3">Refundable
                 </h1>
             </div>
             <div className="flex justify-between py-4">
-                <div className=" flex">
+                <div className=" flex text-[14px]">
                     <div className="mt-1">
                         <label className="container ">
                             <input className="border  " type="checkbox" />
@@ -76,15 +76,15 @@ const SecondSection = () => {
             {/* Departing from */}
             <div className="border-t-2 border-[#dee2e6] flex justify-between ">
                 <div>
-                    <h1 className="text-[#212529] text-[20px] mt-3"> Departing from
+                    <h1 className="text-[#212529] text-[18px] mt-3"> Departing from
                     </h1>
                 </div>
                 <div>
-                    <h1 className="text-[#212529] text-[20px] mt-3"> Arriving at
+                    <h1 className="text-[#212529] text-[18px] mt-3"> Arriving at
                     </h1>
                 </div>
             </div>
-            <div className="flex justify-between py-4">
+            <div className="flex justify-between text-[14px] py-4">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
@@ -115,9 +115,9 @@ const SecondSection = () => {
 
 
             <div className="border-t-2 border-[#dee2e6]">
-                <h1 className="text-[#212529] text-[20px] mt-5"> Airlines</h1>
+                <h1 className="text-[#212529] text-[18px] mt-5"> Airlines</h1>
             </div>
-            <div className="flex justify-between py-1 mt-2">
+            <div className="flex justify-between py-1 text-[14px]  mt-2">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
@@ -142,7 +142,7 @@ const SecondSection = () => {
             </div>
             {/* second Line linn */}
 
-            <div className="flex justify-between py-1">
+            <div className="flex justify-between text-[14px] py-1">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
@@ -160,7 +160,7 @@ const SecondSection = () => {
                 </div>
             </div>
             {/* Third Line */}
-            <div className="flex justify-between py-1">
+            <div className="flex justify-between py-1 text-[14px]">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
@@ -178,7 +178,7 @@ const SecondSection = () => {
                 </div>
             </div>
             {/* Forth Line */}
-            <div className="flex justify-between py-1">
+            <div className="flex justify-between py-1 text-[14px]">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
@@ -200,7 +200,7 @@ const SecondSection = () => {
             <div className="border-t-2 border-[#dee2e6]">
                 <h1 className="text-[#212529] text-[18px] mt-5"> Transit Time in (Dhaka - Chittagong)</h1>
             </div>
-            <div className="flex justify-between py-4">
+            <div className="flex justify-between py-4 text-[14px]">
                 <div className=" flex">
                     <div className="mt-1">
                         <label className="container ">
