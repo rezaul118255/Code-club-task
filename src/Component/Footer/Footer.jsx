@@ -12,8 +12,8 @@ import google from "../../assets/Google_2011_logo-600x206.png"
 const Footer = () => {
     return (
         <div className="relative ">
-            <div className=" absolute mt-[1350px]">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
+            <div className=" absolute mt-6 md:mt-[1350px]">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 px-6">
                     <div className="text-[#eb1933] text-sm ">
                         <img src={logo} alt="" />
                         <h1 className="mt-2">Flight Expert Dhaka (Main branch)</h1>
@@ -90,7 +90,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 border-y-2 border-[#dee2e6]">
+                <div className="mt-10 border-y-2 border-[#dee2e6] px-6">
                     <div className="text-[#6e7491] py-7 grid grid-cols-2 md:grid-cols-4 gap-6" >
                         <div>
                             <h1 className="text-xl  py-4">About</h1>
@@ -120,7 +120,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className="mt-8 mx-auto ms-0 md:ms-[400px] pb-10">
+                <div className="mt-8 mx-auto ms-0 md:ms-[400px] px-6 pb-10">
                     <h1 className="text-md mx-auto text-[#6e7491] font-semibold  py-4">Copyright @2024 FEBD Ltd. All rights reserved by Flight Expert</h1>
 
                 </div>

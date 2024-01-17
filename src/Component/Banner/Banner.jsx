@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 
-
+import { FaArrowRightArrowLeft, FaCheck } from "react-icons/fa6";
 
 const Banner = () => {
     const [isInputFrom, setIsInputFrom] = useState(false);
@@ -81,8 +81,8 @@ const Banner = () => {
 
 
     return (
-        <div className="static">
-            <div className="shadow-xl text-[#7c8db0] px-6 mt-6  ">
+        <div className=" ">
+            <div className="shadow-xl text-[#7c8db0] relative px-6 mt-6 pb-7  ">
 
 
                 {/* 1st section */}
@@ -104,12 +104,19 @@ const Banner = () => {
                     </div>
 
                 </div>
+                <div className="relative hidden lg:block ">
+                    <div className="rounded-full cursor-pointer mx-auto absolute border border-[#dee2e6] p-4 mt-[40px] ms-[252px] z-50 text-[#eb1933] ">
+                        <div className="h-2 w-3">
+                            <FaArrowRightArrowLeft />
+                        </div>
 
+                    </div>
+                </div>
 
 
 
                 {/* 2nd Section */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-4 py-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  py-4">
                     {/* Repeat this structure for each clickable div */}
                     <div
                         className="border rounded-xl mt-4 md:mt-0 border-[#dee2e6] hover:bg-[#bfdbfe] cursor-pointer relative" // Added 'relative' for positioning
@@ -123,10 +130,10 @@ const Banner = () => {
                         </div>
 
                         {isInputFrom && (
-                            <div className="absolute left-0 right-0 p-2 flex">
-                                <CiSearch className="h-6 w-6 text-red-600" />
+                            <div className="absolute left-0 right-0 p-2 flex gap-2">
+                                <CiSearch className="h-6 w-6  text-red-600" />
                                 <input onChange={handleInputChange}
-                                    onBlur={handleBlur} type="text" className="border-b-4 w-full max-w-xs" />
+                                    onBlur={handleBlur} type="text" placeholder="    type for the airport name" className="border-b-4 w-full max-w-xs" />
 
 
 
@@ -138,17 +145,17 @@ const Banner = () => {
                         onClick={handleTo}
                     >
                         {/* Original content */}
-                        <div className="px-4 py-2">
+                        <div className="px-10 py-2">
                             <h1>To</h1>
                             <h1 className="text-xl font-bold">Chittagong</h1>
                             <p className="text-sm">Shah Amanat international </p>
                         </div>
 
                         {isInputTo && (
-                            <div className="absolute left-0 right-0 p-2 flex">
+                            <div className="absolute left-0 right-0 p-2 gap-2 flex">
                                 <CiSearch className="h-6 w-6 text-red-600" />
                                 <input onChange={handleInputTo}
-                                    onBlur={handleBlurTo} type="text" className="border-b-4 w-full max-w-xs" />
+                                    onBlur={handleBlurTo} type="text" placeholder="    type for the airport name" className="border-b-4 w-full max-w-xs" />
 
 
                             </div>
@@ -160,15 +167,23 @@ const Banner = () => {
                     >
                         <div className="flex">
                             <div className="px-4 py-2 border-r-2 hover:bg-[#bfdbfe] ">
-                                <h1>Departure</h1>
+                                <div className="flex gap-2">
+                                    <h1>Departure</h1>
+                                    <FaCheck></FaCheck>
+                                </div>
+
                                 <h1 className="text-xl font-bold">16 Jan 24</h1>
                                 <p className="text-sm">Tuseday </p>
                             </div>
                             <div className="px-1 hover:bg-[#bfdbfe] ">
-                                <h1>return</h1>
+                                <div className="flex mt-2 gap-2">
+                                    <h1>return</h1>
+                                    <FaCheck></FaCheck>
+                                </div>
+
                                 <h1>Tap to book return</h1>
 
-                                <p className="text-sm">ticket </p>
+
 
                             </div>
 
@@ -204,7 +219,7 @@ const Banner = () => {
 
                 </div>
                 {/* 3rd Section */}
-                <div className="flex gap-4 py-3  pb-10">
+                <div className="flex gap-4 py-1">
                     <div className="mt-2">
                         <h1 className="font-bold">Fare Type:</h1>
 
@@ -218,18 +233,19 @@ const Banner = () => {
                     </div>
                 </div>
 
+
                 {/* buttton section */}
 
 
+                <div className="  ms-[480px] z-0 absolute hidden lg:block  ">
+                    <button className="bg-[#eb1933] font-bold   hover:bg-white text-white hover:text-[#eb1933] px-6 py-3 border-solid border-[1px] border-[#eb1933] rounded-lg">Modify Search</button>
 
+                </div>
 
 
 
             </div>
-            <div className=" ms-[500px] absolute  ">
-                <button className="bg-[#eb1933]   hover:bg-white text-white hover:text-[#eb1933] h-[48px] w-[89px] border-solid border-[1px] border-[#eb1933] rounded-lg">Sign In</button>
 
-            </div>
         </div>
 
 
