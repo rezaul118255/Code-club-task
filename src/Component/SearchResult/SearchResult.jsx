@@ -106,9 +106,6 @@ const SearchResult = () => {
                 </div>
 
             </div>
-
-
-            {/* second Card */}
             <div className="shadow-xl mt-6">
 
                 <div className="flex justify-between text-black">
@@ -124,9 +121,10 @@ const SearchResult = () => {
                             <h1 className="mt-2">Dhaka (DAC)</h1>
 
                         </div>
+
                     </div>
-                    <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-[12px] ">
+                    <div className="p-4 text-[12px]">
+                        <h1 className="text-[#7c8db0]  ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -142,8 +140,11 @@ const SearchResult = () => {
                             Arrive
                         </h1>
                         <h1>21:35</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1 className="mt-3"> Chittagong (CGP)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
 
                     </div>
 
@@ -165,13 +166,12 @@ const SearchResult = () => {
                         </div>
 
 
+
                     </div>
 
                 </div>
 
             </div>
-
-            {/* Third Card */}
             <div className="shadow-xl mt-6">
 
                 <div className="flex justify-between text-black">
@@ -187,9 +187,10 @@ const SearchResult = () => {
                             <h1 className="mt-2">Dhaka (DAC)</h1>
 
                         </div>
+
                     </div>
-                    <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-[12px] ">
+                    <div className="p-4 text-[12px]">
+                        <h1 className="text-[#7c8db0]  ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -205,8 +206,11 @@ const SearchResult = () => {
                             Arrive
                         </h1>
                         <h1>21:35</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1 className="mt-3"> Chittagong (CGP)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
 
                     </div>
 
@@ -228,12 +232,16 @@ const SearchResult = () => {
                         </div>
 
 
+
                     </div>
 
                 </div>
 
             </div>
-            {/* Four Card */}
+
+
+            {/* second Card */}
+
 
             <div className="shadow-xl mt-6">
 
@@ -250,9 +258,10 @@ const SearchResult = () => {
                             <h1 className="mt-2">Dhaka (DAC)</h1>
 
                         </div>
+
                     </div>
-                    <div className="p-4">
-                        <h1 className="text-[#7c8db0] text-[12px] ">
+                    <div className="p-4 text-[12px]">
+                        <h1 className="text-[#7c8db0]  ">
                             55 minutes
                         </h1>
                         <div className="text-[#eb1933] w-16">
@@ -268,8 +277,11 @@ const SearchResult = () => {
                             Arrive
                         </h1>
                         <h1>21:35</h1>
-                        <h1>Tue, 16 Jan 2024</h1>
-                        <h1 className="mt-3"> Chittagong (CGP)</h1>
+                        <div className="text-[12px]">
+                            <h1>Tue, 16 Jan 2024</h1>
+                            <h1 className="mt-2">Dhaka (DAC)</h1>
+
+                        </div>
 
                     </div>
 
@@ -281,10 +293,7 @@ const SearchResult = () => {
                         <h1 className="text-[12px] text-[#008000]">Partially Refundable</h1>
                     </div>
                     <div>
-                        <div>
-                            <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
-
-                        </div>
+                        <button className="bg-[#eb1933] hover:bg-white text-white hover:text-[#eb1933] px-5 py-2 border-solid border-[1px] border-[#eb1933] rounded-lg">Book Now</button>
                         <div className="flex py-2">
                             <h1 className="text-[#eb1933]">Flight Details</h1>
                             <div className="text-[#eb1933] px-4 mt-1 ">
@@ -293,38 +302,6 @@ const SearchResult = () => {
 
                         </div>
 
-                        {/* <details className="dropdown">
-                            <summary className=" ">
-                                <div className="flex py-2">
-                                    <h1 className="text-[#eb1933]">Flight Details</h1>
-                                    <div className="text-[#eb1933] px-4 mt-1 ">
-                                        <FaCheck></FaCheck>
-                                    </div>
-
-                                </div>
-
-                            </summary>
-                            <div className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-[200px]">
-                                <div>
-                                    <h1>rezaul Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus cum quibusdam ea, odio laborum expedita voluptatum necessitatibus, animi repellat perspiciatis unde libero autem. Cum veritatis reprehenderit commodi animi veniam!</h1>
-                                </div>
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </div>
-
-
-                        </details> */}
-
-
-
-
-
-
-
-
-
-
-
 
 
                     </div>
@@ -332,6 +309,8 @@ const SearchResult = () => {
                 </div>
 
             </div>
+
+
             {/* Fifth Card */}
 
 

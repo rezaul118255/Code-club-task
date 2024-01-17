@@ -131,12 +131,15 @@ const Banner = () => {
 
                         {isInputFrom && (
                             <div className="absolute left-0 right-0 p-2 flex gap-2">
-                                <CiSearch className="h-6 w-6  text-red-600" />
-                                <input onChange={handleInputChange}
-                                    onBlur={handleBlur} type="text" placeholder="    type for the airport name" className="border-b-4 w-full max-w-xs" />
+                                <div className="cursor pointer">
+                                    <CiSearch className="h-6 w-6  text-red-600" />
+                                </div>
+                                <div>
+                                    <input onChange={handleInputChange}
+                                        onBlur={handleBlur}
+                                        className="shadow border-b-3 w-full appearance-none rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="type for the airport name" />
 
-
-
+                                </div>
                             </div>
                         )}
                     </div>
@@ -153,9 +156,15 @@ const Banner = () => {
 
                         {isInputTo && (
                             <div className="absolute left-0 right-0 p-2 gap-2 flex">
-                                <CiSearch className="h-6 w-6 text-red-600" />
-                                <input onChange={handleInputTo}
-                                    onBlur={handleBlurTo} type="text" placeholder="    type for the airport name" className="border-b-4 w-full max-w-xs" />
+                                <div className="cursor pointer">
+                                    <CiSearch className="h-6 w-6  text-red-600" />
+                                </div>
+                                <div>
+                                    <input onChange={handleInputTo}
+                                        onBlur={handleBlurTo}
+                                        className="shadow border-b-3 w-full appearance-none rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="type for the airport name" />
+
+                                </div>
 
 
                             </div>
@@ -194,8 +203,13 @@ const Banner = () => {
                         {isInputDate && (
                             <div className="absolute left-0 right-0 p-2 flex">
 
-                                <input onChange={handleInputDate}
-                                    onBlur={handleBlurDate} type="date" className="border-b-4 w-full max-w-xs" />
+
+                                <div>
+                                    <input onChange={handleInputDate}
+                                        onBlur={handleBlurDate}
+                                        className="shadow border-b-3 w-full appearance-none rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="date" placeholder="type for the airport name" />
+
+                                </div>
 
 
                             </div>

@@ -1,5 +1,6 @@
 import { FiSunrise } from "react-icons/fi";
 import { MdOutlineWbSunny } from "react-icons/md";
+import "./SideBanner.css";
 
 const SessionTime = () => {
     return (
@@ -36,8 +37,13 @@ const SessionTime = () => {
                     <div className=" py-4 mt-2  ">
                         <h1 className="text-[#212529] text-[18px]  "> One Way Price</h1>
                     </div>
-                    <div className="">
+                    {/* <div className="">
                         <input type="range" min={0} max="100" value="98" className="w-72" />
+                    </div> */}
+
+
+                    <div className="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
                     </div>
 
                     <h1 className="text-[#212529] text-[16px] font-semibold mt-2  "> 3,240 tk 7,314 tk</h1>

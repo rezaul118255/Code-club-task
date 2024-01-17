@@ -58,3 +58,64 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+
+
+/* range style  */
+
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    /* Full-width */
+
+    /* Specified height */
+    background: #f70202fb;
+    /* Grey background */
+
+    /* Remove outline */
+
+
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 17px;
+    /* Set a specific slider handle width */
+    height: 17px;
+    /* Slider handle height */
+    background: #f22804;
+    border-radius: 50%;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #f22804;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
