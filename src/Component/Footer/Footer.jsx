@@ -121,7 +121,7 @@ const Footer = () => {
 
                 </div>
                 <div className="mt-8 mx-auto ms-0 md:ms-[400px] px-6 pb-10">
-                    <h1 className="text-md mx-auto text-[#6e7491] font-semibold  py-4">Copyright @2024 FEBD Ltd. All rights reserved by Flight Expert</h1>
+                    <h1 className="text-md mx-auto text-[#6e7491] font-semibold  py-4">Copyright @2024 Rezaul Karim.. All rights reserved by Flight Expert</h1>
 
                 </div>
 
